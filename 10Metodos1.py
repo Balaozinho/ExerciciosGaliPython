@@ -1,0 +1,12 @@
+# Exercício 10 - PEÇA PARA O USUÁRIO DIGITAR UMA FRASE
+#BUSQUE SABER AS APLICAÇÕES DOS MÉTODOS UPPER, LOWER E COUNT E OS APLIQUE NA FRASE
+#USE UM MÉTODO DE TEXTO PARA TRANSFORMAR A FRASE EM MAIUSCULA E MOSTRE O RESULTADO
+#USE UM MÉTODO DE TEXTO PARA TRANSFORMAR A FRASE EM MINUSCULA E MOSTRE O RESULTADO
+#USE UM MÉTODO DE TEXTO (OU DOIS) PARA CONTAR A QUANTIDADE DE LETRAS 'A' QUE A FRASE POSSUI
+
+
+frase = input("Digite uma frase: ")
+
+print("Frase em maiúsculas:", frase.upper())
+print("Frase em minúsculas:", frase.lower())
+print("Quantidade de letras 'a':", frase.lower().count("a"))
